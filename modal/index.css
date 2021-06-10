@@ -1,0 +1,57 @@
+html {
+    background-color: lightblue;
+}
+
+.close {
+    color: blue;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.overlay {
+    background-color: black;
+    opacity: .5;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    z-index: 100;
+}
+
+.close:hover {
+    text-decoration: underline;
+}
+
+.modal {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+}
+
+.modal-button {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px 50px;
+    cursor: pointer;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto
+}
